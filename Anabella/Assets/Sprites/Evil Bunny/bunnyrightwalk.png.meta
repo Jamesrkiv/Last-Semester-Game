@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 7aaca49ef581a41a99abbfdf82be0791
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8025895695117305405
+    second: bunnyrightwalk_0
+  - first:
+      213: 5215336175079413579
+    second: bunnyrightwalk_1
+  - first:
+      213: 824578258192821501
+    second: bunnyrightwalk_2
+  - first:
+      213: 2716252604969427044
+    second: bunnyrightwalk_3
+  - first:
+      213: -6751788440656972145
+    second: bunnyrightwalk_4
+  - first:
+      213: 7399376169726859306
+    second: bunnyrightwalk_5
+  - first:
+      213: -1063963830313398225
+    second: bunnyrightwalk_6
+  - first:
+      213: 4328923977440764641
+    second: bunnyrightwalk_7
+  - first:
+      213: -4688472298632563815
+    second: bunnyrightwalk_8
+  - first:
+      213: -382156092351223608
+    second: bunnyrightwalk_9
+  - first:
+      213: -6510425929238506807
+    second: bunnyrightwalk_10
+  - first:
+      213: -5801612091287196515
+    second: bunnyrightwalk_11
+  - first:
+      213: 8277298393356618828
+    second: bunnyrightwalk_12
+  - first:
+      213: 2818325128093770046
+    second: bunnyrightwalk_13
+  - first:
+      213: -2462201502585028350
+    second: bunnyrightwalk_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bunnyrightwalk_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2399
+        width: 246
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36cdc79c95b16f60800000000000000
+      internalID: 8025895695117305405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2399
+        width: 240
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b475ad38e98906840800000000000000
+      internalID: 5215336175079413579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_2
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 2399
+        width: 237
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfce7199e8d717b00800000000000000
+      internalID: 824578258192821501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1802
+        width: 238
+        height: 577
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460ae675a5112b520800000000000000
+      internalID: 2716252604969427044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1804
+        width: 237
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f867d0c8f24dc42a0800000000000000
+      internalID: -6751788440656972145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1804
+        width: 238
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a285f0c3c6ddfa660800000000000000
+      internalID: 7399376169726859306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1204
+        width: 242
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f205e40988a0c31f0800000000000000
+      internalID: -1063963830313398225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1204
+        width: 253
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2270ffb6d631c30800000000000000
+      internalID: 4328923977440764641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_8
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1204
+        width: 261
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9933fb4f8433feeb0800000000000000
+      internalID: -4688472298632563815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 605
+        width: 271
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c867aa0f0f42baf0800000000000000
+      internalID: -382156092351223608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_10
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 604
+        width: 281
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c21f3f6c1256a5a0800000000000000
+      internalID: -6510425929238506807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_11
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 604
+        width: 287
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c273e8a888c7fa0800000000000000
+      internalID: -5801612091287196515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 7
+        width: 275
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ccee3a80fded270800000000000000
+      internalID: 8277298393356618828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_13
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 7
+        width: 267
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31269995c3bc1720800000000000000
+      internalID: 2818325128093770046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunnyrightwalk_14
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 7
+        width: 257
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2018cf857c084ddd0800000000000000
+      internalID: -2462201502585028350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
