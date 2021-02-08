@@ -4631,9 +4631,9 @@ GameObject:
   - component: {fileID: 151402838}
   - component: {fileID: 151402840}
   - component: {fileID: 151402839}
-  - component: {fileID: 151402843}
   - component: {fileID: 151402842}
   - component: {fileID: 151402841}
+  - component: {fileID: 151402844}
   m_Layer: 0
   m_Name: Layer_Objects
   m_TagString: Untagged
@@ -5983,23 +5983,9 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 151402843}
-    m_ColliderPaths:
-    - - X: 122691875
-        Y: -63461408
-      - X: 122691875
-        Y: 64999712
-      - X: -118845936
-        Y: 64999419
-      - X: -118845643
-        Y: -63461408
+  m_ColliderPaths: []
   m_CompositePaths:
-    m_Paths:
-    - - {x: 12.269158, y: -6.346141}
-      - {x: 12.269158, y: 6.4999714}
-      - {x: -11.884594, y: 6.4999127}
-      - {x: -11.884536, y: -6.346141}
+    m_Paths: []
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!50 &151402842
@@ -6010,7 +5996,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151402837}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -6023,8 +6009,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!61 &151402843
-BoxCollider2D:
+--- !u!19719996 &151402844
+TilemapCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6035,20 +6021,10 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 1
-  m_Offset: {x: 0.19231129, y: 0.076915264}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 24.15381, y: 12.846112}
-  m_EdgeRadius: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1001 &181522965
 PrefabInstance:
   m_ObjectHideFlags: 0
