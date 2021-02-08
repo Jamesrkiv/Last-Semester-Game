@@ -18,10 +18,13 @@ public class Movement : MonoBehaviour
     public Text soulsText;
     public Text levelComplete;
     public Text playerLivesText;
+    public Text youWin;
+    public Text buttonPrompt;
     public Text gameOver;
     public Text gameOver2;
     public int playerLives;
     public int soulGoal;
+    public Button closeButton;
     int hit = 0;
 
 
@@ -60,15 +63,34 @@ public class Movement : MonoBehaviour
             }
             // Destroy(col.gameObject);
         }
+
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+
+        if(souls == soulGoal)
+        {
+            levelComplete.text = "Level Complete";
+            youWin.text = "You Win!";
+            buttonPrompt.text = "Press escape or click the button to continue";
+            closeButton.gameObject.SetActive(true);
+            Time.timeScale = 0;
+        }
+    }
+
+    public void closeGame()
+    {
+        Application.Quit();
     }
 
 
     private void FixedUpdate()
     {
         MoveCharacter();
-        if(souls == soulGoal){
+        /*if(souls == soulGoal){
             levelComplete.text = "Level Complete";
-        }
+        }*/
 
     }
 
