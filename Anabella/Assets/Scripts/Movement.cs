@@ -69,11 +69,11 @@ public class Movement : MonoBehaviour
             Application.Quit();
         }
 
-        if(souls == soulGoal)
+        if (souls == soulGoal)
         {
             levelComplete.text = "Level Complete";
             youWin.text = "You Win!";
-            buttonPrompt.text = "Press escape or click the button to continue";
+            buttonPrompt.text = "Press escape or click the button to quit";
             closeButton.gameObject.SetActive(true);
             Time.timeScale = 0;
         }
