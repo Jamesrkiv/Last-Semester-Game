@@ -142,7 +142,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.08968735, y: -1.3345172}
+  m_Offset: {x: -0.107227325, y: -0.9661672}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -153,8 +153,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0775108, y: 3.1227965}
-  m_EdgeRadius: 0
+  m_Size: {x: 0.4343605, y: 2.4562602}
+  m_EdgeRadius: 0.12
 --- !u!114 &2204431465646748611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,12 +177,12 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.045744896, y: -0.8691845}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 7.836521
+  m_Radius: 50
 --- !u!114 &7944352053573740737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,8 +195,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7e8d0321a8744c639e97e6fcd1e7656, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pursuitSpeed: 0
-  wanderSpeed: 0
-  directionChangeInterval: 0
-  followPlayer: 0
+  pursuitSpeed: 2
+  wanderSpeed: 1
+  directionChangeInterval: 2.5
+  followPlayer: 1
   player: {fileID: 0}

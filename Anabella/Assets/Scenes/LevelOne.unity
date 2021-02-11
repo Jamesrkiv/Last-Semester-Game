@@ -8093,20 +8093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BunnyNPC (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2204431465646748611, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
+    - target: {fileID: 2204431465646748610, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
         type: 3}
-      propertyPath: bunny
-      value: 
-      objectReference: {fileID: 2010384178}
-    - target: {fileID: 2204431465646748611, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: spawnNum
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2204431465646748611, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 0
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2204431465646748612, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
         type: 3}
@@ -8163,56 +8153,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2204431465646748613, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: m_Radius
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 2204431465646748613, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2204431465646748613, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2204431465646748613, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7944352053573740737, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 508057342}
-    - target: {fileID: 7944352053573740737, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7944352053573740737, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: wanderSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7944352053573740737, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: followPlayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7944352053573740737, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: pursuitSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7944352053573740737, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: directionChangeInterval
-      value: 2.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27401454c8e2b416db8dbfd2e8cd76c8, type: 3}
 --- !u!1 &1303374234
@@ -8294,12 +8239,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
---- !u!4 &1473358384 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2204431465646748612, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-    type: 3}
-  m_PrefabInstance: {fileID: 2204431467592746978}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1613535011
 GameObject:
   m_ObjectHideFlags: 0
@@ -8529,12 +8468,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2204431465646748612, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
     type: 3}
   m_PrefabInstance: {fileID: 181522965}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2010384178 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2204431465646748612, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1236832712}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2013393087
 GameObject:
@@ -8792,21 +8725,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BunnyNPC
       objectReference: {fileID: 0}
-    - target: {fileID: 2204431465646748611, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: bunny
-      value: 
-      objectReference: {fileID: 1473358384}
-    - target: {fileID: 2204431465646748611, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: spawnNum
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2204431465646748611, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2204431465646748612, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -8862,55 +8780,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2204431465646748613, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: m_Radius
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 2204431465646748613, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2204431465646748613, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2204431465646748613, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7944352053573740737, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 508057342}
-    - target: {fileID: 7944352053573740737, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7944352053573740737, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: wanderSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7944352053573740737, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: followPlayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7944352053573740737, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: pursuitSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7944352053573740737, guid: 27401454c8e2b416db8dbfd2e8cd76c8,
-        type: 3}
-      propertyPath: directionChangeInterval
-      value: 2.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27401454c8e2b416db8dbfd2e8cd76c8, type: 3}
